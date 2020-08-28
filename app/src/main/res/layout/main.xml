@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:layout_height="100dp"
+			android:layout_width="100dp"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/showLove"/>
+
+	</LinearLayout>
+
+	<FrameLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Small Text"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:paddingLeft="60dp"
+				android:paddingTop="10dp"
+				android:id="@+id/nayye"
+				android:textColor="#0AE450"/>
+
+		</ScrollView>
+
+	</FrameLayout>
+
+</LinearLayout>
+
